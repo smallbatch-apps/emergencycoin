@@ -12,13 +12,6 @@ contract EmergencyCoin is ERC20, ReentrancyGuard {
     mapping(address => address) private backupAddresses;
     mapping(address => bool) private blacklist;
 
-    struct RecoverTokens {
-        address recoveryAddress;
-    }
-
-    string private constant RECOVER_TOKENS_TYPE =
-        "RecoverTokens(address recoveryAddress)";
-
     constructor(uint256 intialSupply)
         ERC20("EmergencyCoin", "ECN")
         ReentrancyGuard()
