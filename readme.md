@@ -14,7 +14,7 @@ the event of a compromise.
 ### Incomplete Features
 
 - Transfers to recovered accounts redirect to backup address
--
+- Sign transactions with ERC-712
 
 ## Installation
 
@@ -37,4 +37,13 @@ Run `truffle deploy` to deploy to the default development blockchain.
 
 ### Test or Mainnet
 
-Run `truffle deploy -- network rinkeby`
+Create a `.env` file in the base of the repository, and add the following requirements.
+
+```
+MNEMONIC=...
+INFURA_API_KEY=...
+```
+
+The mnemonic should be a seed phrase to be used for deployment. The infura api key will be a key for an infura project.
+
+Run `truffle deploy -- network goerli` or another network.
