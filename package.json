@@ -1,0 +1,22 @@
+{
+  "name": "emergencycoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/eth-sig-util": "^4.0.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "dotenv": "^16.0.0",
+    "ganache": "^7.0.4"
+  }
+}
