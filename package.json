@@ -17,6 +17,7 @@
     "@openzeppelin/test-helpers": "^0.5.15",
     "@truffle/hdwallet-provider": "^2.0.6",
     "dotenv": "^16.0.0",
+    "ethereumjs-util": "^7.1.4",
     "ganache": "^7.0.4"
   }
 }
